@@ -454,5 +454,6 @@
     <Build Include="admin\Tables\abnsettings.sql" />
     <Build Include="admin\Tables\abn.sql" />
     <Build Include="BASELINE\test_view.sql" />
+    <Build Include="dbo\Views\test_tabel.sql" />
   </ItemGroup>
 </Project>
