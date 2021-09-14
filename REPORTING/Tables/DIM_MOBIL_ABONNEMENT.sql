@@ -1,24 +1,25 @@
-CREATE TABLE [REPORTING].[DIM_MOBIL_ABONNEMENT] (
-    [ABONNEMENT_ID] INT            NOT NULL,
-    [CUST]          INT            NULL,
-    [COUNTRY_ID]    INT            NULL,
-    [MOBIL_NR]      BIGINT         NULL,
-    [NAVN]          NVARCHAR (50)  NULL,
-    [EXTRA]         NVARCHAR (255) NULL,
-    [ABN]           INT            NULL,
-    [STARTDATE]     DATETIME2 (0)  NULL,
-    [ENDDATE]       DATETIME2 (0)  NULL,
-    [ICC]           NVARCHAR (25)  NULL,
-    [SUSPENDED]     TINYINT        NULL,
-    [IMSI]          NVARCHAR (20)  NULL,
-    [NUMBERTYPE]    INT            NULL,
-    [ICCTYPE]       BIGINT         NULL,
-    [OPERATOR_ID]   NVARCHAR (10)  NULL,
-    [STATUS_ID]     INT            NULL,
-    [STATUS_NAVN]   NVARCHAR (50)  NULL,
-    CONSTRAINT [MobilAbnAllePk] PRIMARY KEY CLUSTERED ([ABONNEMENT_ID] ASC)
-);
-
-
+CREATE TABLE [REPORTING].[DIM_MOBIL_ABONNEMENT](
+	[ABONNEMENT_ID] [int] NOT NULL,
+	[CUST] [int] NULL,
+	[COUNTRY_ID] [int] NULL,
+	[MOBIL_NR] [bigint] NULL,
+	[NAVN] [nvarchar](50) NULL,
+	[EXTRA] [nvarchar](255) NULL,
+	[ABN] [int] NULL,
+	[ABN_NAME] [nvarchar](255) NULL,
+	[STARTDATE] [datetime2](0) NULL,
+	[ENDDATE] [datetime2](0) NULL,
+	[ICC] [nvarchar](25) NULL,
+	[SUSPENDED] [tinyint] NULL,
+	[IMSI] [nvarchar](20) NULL,
+	[NUMBERTYPE] [int] NULL,
+	[ICCTYPE] [bigint] NULL,
+	[OPERATOR_ID] [nvarchar](10) NULL,
+	[STATUS_ID] [int] NULL,
+	[STATUS_NAVN] [nvarchar](50) NULL,
+ CONSTRAINT [MobilAbnAllePk] PRIMARY KEY CLUSTERED 
+(
+	[ABONNEMENT_ID] ASC
+)WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
 GO
-
