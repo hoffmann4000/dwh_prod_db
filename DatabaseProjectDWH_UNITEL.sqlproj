@@ -247,7 +247,6 @@
     <Build Include="REPORTING\Tables\FACT_MOBIL_OPKALD.sql" />
     <Build Include="REPORTING\Tables\FACT_MOBIL_DATAFORBRUG.sql" />
     <Build Include="REPORTING\Tables\FACT_KPI.sql" />
-    <Build Include="REPORTING\Tables\FACT_ABONNEMENT_delete.sql" />
     <Build Include="REPORTING\Tables\DIM_TRUNK.sql" />
     <Build Include="REPORTING\Tables\DIM_RESSOURCEGROUP.sql" />
     <Build Include="REPORTING\Tables\DIM_PRODUKT.sql" />
