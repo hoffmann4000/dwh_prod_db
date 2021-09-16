@@ -331,7 +331,6 @@
     <Build Include="BASELINE\Views\FACT_MOBIL_DATA_V.sql" />
     <Build Include="BASELINE\Views\DIM_RESSOURCEGROUP_V.sql" />
     <Build Include="BASELINE\Views\CHURN_V.sql" />
-    <Build Include="BASELINE\Views\ABONNOMENTER_PR_MND_V.sql" />
     <Build Include="BASELINE\Tables\udvalgte_cvr_data.sql" />
     <Build Include="BASELINE\Tables\TELESERVICECODE.sql" />
     <Build Include="BASELINE\Tables\HPBX_STATS.sql" />
@@ -455,5 +454,6 @@
     <Build Include="dbo\Views\test_tabel.sql" />
     <Build Include="BASELINE\StoredProcedures\HISTORISK_LOAD_HBPX_STATS_MERGE_SLOW.sql" />
     <Build Include="BASELINE\StoredProcedures\LOAD_HPBX_STATS.sql" />
+    <Build Include="BASELINE\Views\MOBIL_ABONNOMENTER_PR_MND_V.sql" />
   </ItemGroup>
 </Project>
