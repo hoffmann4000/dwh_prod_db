@@ -1,10 +1,13 @@
-CREATE procedure [BASELINE].[HISTORISK_LOAD_HBPX_STATS]
+CREATE PROCEDURE [BASELINE].[HISTORISK_LOAD_HBPX_STATS]
 /* 
-Loader historiske kildedata fra [Statistics].[hpbx] til det persistent lag i BASELINE.HPBX_STATS (tabel)
+Loader historiske kildedata fra [statistics].[hpbx_stats] til det persistente lag i BASELINE.HPBX_STATS (tabel)
 Procedure [BASELINE].[HPBX_STATS_PROC] fylder daglige data ind i BASELINE.HPBX_STATS 
-Sidste led er 4 procedurer i REPORTING-skemaet, som populerer tabellen REPORTING.FACT_KPI
+Dataindlæsningens sidste led er i fire procedurer i REPORTING-skemaet, som populerer tabellen REPORTING.FACT_KPI
 */
 AS
+
+TRUNCATE TABLE BASELINE.HPBX_STATS;
+
 INSERT INTO BASELINE.HPBX_STATS (PARTNER_NAME, PBX, USERS, SIP, MOBIL, WHITELABEL, DATO, EXTERNAL_PARTNER_ID)
 (
 SELECT PARTNER_NAME, PBX, USERS, SIP, MOBIL, WHITELABEL, DATO, EXTERNAL_PARTNER_ID 
@@ -22,6 +25,3 @@ FROM
 	) A
 WHERE A.RN=1
 )
-
-GO
-
