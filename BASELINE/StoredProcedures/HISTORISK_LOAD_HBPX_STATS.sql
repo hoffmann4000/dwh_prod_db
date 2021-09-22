@@ -1,8 +1,10 @@
-CREATE PROCEDURE [BASELINE].[HISTORISK_LOAD_HBPX_STATS]
+ALTER PROCEDURE [BASELINE].[LOAD_HBPX_STATS]
 /* 
-Loader historiske kildedata fra [statistics].[hpbx_stats] til det persistente lag i BASELINE.HPBX_STATS (tabel)
+Loader historiske og aktuelle kildedata fra OneConnect databaseserveren [statistics].[hpbx_stats] til BASELINE.HPBX_STATS (tabel)
 Procedure [BASELINE].[HPBX_STATS_PROC] fylder daglige data ind i BASELINE.HPBX_STATS 
 Dataindlæsningens sidste led er i fire procedurer i REPORTING-skemaet, som populerer tabellen REPORTING.FACT_KPI
+
+P.t. køres en TRUNCATE INSERT model. En MERGE model er forsøgt, men den tager for lang tid. 
 */
 AS
 
@@ -25,3 +27,4 @@ FROM
 	) A
 WHERE A.RN=1
 )
+
