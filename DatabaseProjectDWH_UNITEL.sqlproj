@@ -455,5 +455,6 @@
     <Build Include="BASELINE\StoredProcedures\HISTORISK_LOAD_HBPX_STATS_MERGE_SLOW.sql" />
     <Build Include="BASELINE\StoredProcedures\LOAD_HPBX_STATS.sql" />
     <Build Include="BASELINE\Views\MOBIL_ABONNOMENTER_PR_MND_V.sql" />
+    <Build Include="admin\Tables\mobil_abn_history.sql" />
   </ItemGroup>
 </Project>
