@@ -456,5 +456,6 @@
     <Build Include="BASELINE\StoredProcedures\LOAD_HPBX_STATS.sql" />
     <Build Include="BASELINE\Views\MOBIL_ABONNOMENTER_PR_MND_V.sql" />
     <Build Include="BASELINE\mobil_abn_history.sql" />
+    <Build Include="BASELINE\StoredProcedures\LOAD_MOBIL_ABN_HISTORY.sql" />
   </ItemGroup>
 </Project>
