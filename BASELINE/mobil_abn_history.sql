@@ -1,5 +1,4 @@
-CREATE TABLE [admin].[mobil_abn_history]
-(
+CREATE TABLE [baseline].[mobil_abn_history](
 	[id] [int] NULL,
 	[cust] [int] NULL,
 	[country_id] [int] NULL,
@@ -19,4 +18,6 @@ CREATE TABLE [admin].[mobil_abn_history]
 	[created] [datetime2](0) NULL,
 	[load_dato] [datetime2](0) NULL
 ) 
+GO
+
 
