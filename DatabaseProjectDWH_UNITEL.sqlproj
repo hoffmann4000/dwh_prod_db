@@ -256,7 +256,6 @@
     <Build Include="REPORTING\Tables\DIM_KPI.sql" />
     <Build Include="REPORTING\Tables\DIM_INVOICEGROUP.sql" />
     <Build Include="REPORTING\Tables\DIM_DATO.sql" />
-    <Build Include="REPORTING\StoredProcedures\UPDATE_FACT_OMSÆTNING.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_FACT_MOBIL_OPKALD.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_FACT_MOBIL_DATAFORBRUG.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_FACT_KPI_HPBX_SIP_BRUGERE.sql" />
