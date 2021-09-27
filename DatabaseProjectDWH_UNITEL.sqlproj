@@ -461,5 +461,6 @@
     <Build Include="REPORTING\Tables\FACT_FAKTURERINGSGRUNDLAG.sql" />
     <Build Include="BASELINE\Views\FACT_FAKTURERINGSGRUNDLAG_V.sql" />
     <Build Include="navision\Tables\Uni-tel_AS_Sales_Invoice_Line.sql" />
+    <Build Include="REPORTING\StoredProcedures\MERGE_FACT_FAKTURERINGSGRUNDLAG.sql" />
   </ItemGroup>
 </Project>
