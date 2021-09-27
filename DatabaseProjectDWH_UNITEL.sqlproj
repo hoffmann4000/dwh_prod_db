@@ -459,5 +459,6 @@
     <Build Include="BASELINE\StoredProcedures\LOAD_MOBIL_ABN_HISTORY.sql" />
     <Build Include="REPORTING\Views\REPORTING.ABN_OPRETTELSER_V.sql" />
     <Build Include="REPORTING\Tables\FACT_FAKTURERINGSGRUNDLAG.sql" />
+    <Build Include="BASELINE\Views\FACT_FAKTURERINGSGRUNDLAG_V.sql" />
   </ItemGroup>
 </Project>
