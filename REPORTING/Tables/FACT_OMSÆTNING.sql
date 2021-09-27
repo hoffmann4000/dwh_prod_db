@@ -9,7 +9,7 @@ CREATE TABLE [REPORTING].[FACT_OMSÆTNING](
 	[ANTAL_ENHEDER] [decimal](38, 20) NULL,
 	[ENHEDSPRIS] [decimal](38, 20) NULL,
 	[BELØB_EKSKL_MOMS] [decimal](38, 20) NULL,
-	[LINJE_RABAT] [smallint] NULL,
+	[LINJE_RABAT] [decimal](38, 20) NULL,
 	[LINJE_RABAT_BELØB] [decimal](38,20) NULL,
 	[LOAD_DATO] [datetime2](0) NULL,
 
