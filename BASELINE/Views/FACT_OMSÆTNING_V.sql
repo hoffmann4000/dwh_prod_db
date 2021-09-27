@@ -13,7 +13,7 @@ CAST (N.Quantity AS DECIMAL (38,20)) AS ANTAL_ENHEDER,
 CAST (N.[Unit Price] AS DECIMAL (38,20)) AS ENHEDSPRIS,
 CAST (N.Quantity AS DECIMAL (38,20)) * CAST (N.[Unit Price] AS DECIMAL (38,20)) AS BELØB_EKSKL_MOMS,
 n.[Line Discount _] as LINJE_RABAT,
-n.[Line Discount Amount] as LINE_RABAT_BELØB,
+n.[Line Discount Amount] as LINJE_RABAT_BELØB,
 LOAD_DATO 
 FROM navision.[Uni-tel_AS_Sales_Invoice_Line] N
 )
