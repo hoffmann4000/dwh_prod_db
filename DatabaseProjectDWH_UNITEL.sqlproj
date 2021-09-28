@@ -462,5 +462,6 @@
     <Build Include="navision\Tables\Uni-tel_AS_Sales_Invoice_Line.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_FAKTURERINGSGRUNDLAG.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_OMSÆTNING.sql" />
+    <Build Include="REPORTING\StoredProcedures\BEHOLDNING_ABN_MND.sql" />
   </ItemGroup>
 </Project>
