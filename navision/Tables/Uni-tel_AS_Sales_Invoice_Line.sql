@@ -94,7 +94,7 @@ CREATE TABLE [navision].[Uni-tel_AS_Sales_Invoice_Line](
 	[Delivery Party Code] [int] NULL,
 	[Delivery Party Text] [nvarchar](20) NULL,
 	[load_dato] [nvarchar](max) NULL
-) 
-
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
 
 
