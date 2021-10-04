@@ -6,7 +6,7 @@ N.[Line No_] AS LINJE_NR,
 CAST (N.[Posting Date] AS DATE) AS BOGFØRINGSDATO, 
 DATEADD (D, 14, CAST (N.[Posting Date] AS DATE)) AS BETALINGSFRIST,
 N.[Document No_] AS FAKTURA_NR,
-N.DESCRIPTION AS BESKRIVELE,
+N.DESCRIPTION AS BESKRIVELSE,
 -- [Sell-to Customer No_] er nvchar i kilden
 case
 		when ISNUMERIC([Sell-to Customer No_])=1 then cast ([Sell-to Customer No_] as int) 
