@@ -68,10 +68,12 @@ S.BELØB_EKSKL_MOMS,
 S.LINJE_RABAT,
 S.LINJE_RABAT_BELØB,
 S.LOAD_DATO
-)
-WHEN NOT MATCHED BY SOURCE 
-THEN DELETE
-;
+);
+/*
+When source is not matched then delete is not used here as the temp in BASELINE.FACT_OMSÆTNING_V normaly
+Only will contain currnet year. We do not need the previous years to be deleted. 
+The load from the source i constructed in this way as the load is long lastning one
+*/
 END;
 
 
