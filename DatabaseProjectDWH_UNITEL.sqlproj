@@ -463,5 +463,6 @@
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_OMSÆTNING.sql" />
     <Build Include="REPORTING\StoredProcedures\BEHOLDNING_ABN_MND.sql" />
     <Build Include="REPORTING\Views\KICKBACK_OVERVIEW_V.sql" />
+    <Build Include="REPORTING\StoredProcedures\INSERT_CHURN_SNAPSHOT.sql" />
   </ItemGroup>
 </Project>
