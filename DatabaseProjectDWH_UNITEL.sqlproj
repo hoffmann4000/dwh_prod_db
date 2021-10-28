@@ -465,5 +465,7 @@
     <Build Include="REPORTING\Views\KICKBACK_OVERVIEW_V.sql" />
     <Build Include="REPORTING\StoredProcedures\INSERT_CHURN_SNAPSHOT.sql" />
     <Build Include="REPORTING\StoredProcedures\TRUNC_INSERT_BEHOLDNING_ABN_MND.sql" />
+    <Build Include="REPORTING\StoredProcedures\MERGE_FACT_DATAFORBRUG_DETAIL.sql" />
+    <Build Include="REPORTING\Tables\FACT_MOBILDATAFORBRUG_DETAIL.sql" />
   </ItemGroup>
 </Project>
