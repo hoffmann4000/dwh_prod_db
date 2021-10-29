@@ -467,5 +467,7 @@
     <Build Include="REPORTING\StoredProcedures\TRUNC_INSERT_BEHOLDNING_ABN_MND.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_DATAFORBRUG_DETAIL.sql" />
     <Build Include="REPORTING\Tables\FACT_MOBILDATAFORBRUG_DETAIL.sql" />
+    <Build Include="REPORTING\Tables\FACT_OMSÆTNING_TOTAL.sql" />
+    <Build Include="REPORTING\StoredProcedures\MERGE_FACT_OMSÆTNING_TOTAL.sql" />
   </ItemGroup>
 </Project>
