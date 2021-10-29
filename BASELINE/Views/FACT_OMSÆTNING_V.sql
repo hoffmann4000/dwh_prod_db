@@ -9,7 +9,7 @@ CASE
 		WHEN LOWER([Sell-to Customer No_]) = 'FIRSTCOM' THEN 18
 		ELSE null 
 		END AS KUNDE_ID,
-N.[No_] AS RESSOURCEGROUP_ID,
+CAST (N.[No_] AS INT) AS RESSOURCEGROUP_ID,
 EOMONTH(N.[Posting Date]) AS DATE_ID,
 
 --ATTRIBUTS
@@ -28,5 +28,4 @@ N.[Unit Price] AS ENHEDSPRIS,
 N.[Amount] AS BELØB_EKSKL_MOMS
 FROM navision.[Uni-tel_AS_Sales_Invoice_Line] N
 )
-
-
+GO
