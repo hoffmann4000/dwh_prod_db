@@ -15,7 +15,7 @@ EOMONTH(N.[Posting Date]) AS DATE_ID,
 --ATTRIBUTS
 N.[Line No_] AS LINJE_NR,
 --Posting Date is used here as apposed to shipment date (used by isaksen)
-N.[Posting Date] AS BOGFØRINGSDATO, 
+CAST (N.[POSTING DATE] AS DATE) AS BOGFØRINGSDATO, 
 N.[Document No_] AS FAKTURA_NR,
 N.[Description] AS BESKRIVELSE,
 N.[Line Discount _] AS LINJE_RABAT,
