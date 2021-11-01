@@ -469,5 +469,6 @@
     <Build Include="REPORTING\Tables\FACT_MOBILDATAFORBRUG_DETAIL.sql" />
     <Build Include="REPORTING\Tables\FACT_OMSÆTNING_TOTAL.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_OMSÆTNING_TOTAL.sql" />
+    <Build Include="navision\CREATE_TABLE_TURNOVER_BUDGET.sql" />
   </ItemGroup>
 </Project>
