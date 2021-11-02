@@ -470,7 +470,6 @@
     <Build Include="REPORTING\Tables\FACT_OMSÆTNING_TOTAL.sql" />
     <Build Include="navision\CREATE_TABLE_TURNOVER_BUDGET.sql" />
     <Build Include="BASELINE\Views\BASELINE.TURNOVER_BUDGET_V.sql" />
-    <Build Include="REPORTING\TURNOVER_TOTAL_V.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_TURNOVER_TOTAL.sql" />
   </ItemGroup>
 </Project>
