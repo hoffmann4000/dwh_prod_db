@@ -1,3 +1,4 @@
+
 ALTER VIEW [BASELINE].[FACT_OMSÆTNING_V]
 AS
 (
@@ -27,5 +28,6 @@ N.Quantity AS ANTAL_ENHEDER,
 N.[Unit Price] AS ENHEDSPRIS,
 N.[Amount] AS BELØB_EKSKL_MOMS
 FROM navision.[Uni-tel_AS_Sales_Invoice_Line] N
-)
-GO
+--A FEW ROWS ARE REMOVED HERE. A FEW INVOICES HAS LINES WITHOUT A VALUE IN [Sell-to Customer No_]
+WHERE [Sell-to Customer No_] !=''
+);
