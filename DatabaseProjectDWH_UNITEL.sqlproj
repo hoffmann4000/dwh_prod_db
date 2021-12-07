@@ -93,6 +93,7 @@
     <Folder Include="analyser\Views\" />
     <Folder Include="admin\" />
     <Folder Include="admin\Tables\" />
+    <Folder Include="admin\StoredProcedures\" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
@@ -471,5 +472,7 @@
     <Build Include="navision\CREATE_TABLE_TURNOVER_BUDGET.sql" />
     <Build Include="BASELINE\Views\BASELINE.TURNOVER_BUDGET_V.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_TURNOVER_TOTAL.sql" />
+    <Build Include="admin\StoredProcedures\delete_columns.sql" />
+    <Build Include="admin\StoredProcedures\delte.sql" />
   </ItemGroup>
 </Project>
