@@ -474,5 +474,6 @@
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_TURNOVER_TOTAL.sql" />
     <Build Include="admin\StoredProcedures\delete_columns.sql" />
     <Build Include="admin\StoredProcedures\delte.sql" />
+    <Build Include="BASELINE\Tables\CHURN_PER_PARTNER.sql" />
   </ItemGroup>
 </Project>
