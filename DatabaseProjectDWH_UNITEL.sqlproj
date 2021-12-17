@@ -464,7 +464,6 @@
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_OMSÆTNING.sql" />
     <Build Include="REPORTING\StoredProcedures\BEHOLDNING_ABN_MND.sql" />
     <Build Include="REPORTING\Views\KICKBACK_OVERVIEW_V.sql" />
-    <Build Include="REPORTING\StoredProcedures\INSERT_CHURN_SNAPSHOT.sql" />
     <Build Include="REPORTING\StoredProcedures\TRUNC_INSERT_BEHOLDNING_ABN_MND.sql" />
     <Build Include="REPORTING\StoredProcedures\MERGE_FACT_DATAFORBRUG_DETAIL.sql" />
     <Build Include="REPORTING\Tables\FACT_MOBILDATAFORBRUG_DETAIL.sql" />
@@ -480,5 +479,6 @@
     <Build Include="REPORTING\StoredProcedures\REPORTING.MERGE_FACT_KPI_CHURN.sql" />
     <Build Include="REPORTING\Views\REPORTING.DIM_PARTNER_V.sql" />
     <Build Include="REPORTING.DIM_PARTNER_V'.sql" />
+    <Build Include="REPORTING\Tables\REPORTING.FACT_CHURN.sql" />
   </ItemGroup>
 </Project>
