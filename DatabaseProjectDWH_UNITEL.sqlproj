@@ -478,5 +478,6 @@
     <Build Include="BASELINE\StoredProcedures\INSERT_CHURN_SNAPSHOT_PER_PARTNER.sql" />
     <Build Include="BASELINE\StoredProcedures\BASELINE.INSERT_CHURN_SNAPSHOT_PER_PARTNER.sql" />
     <Build Include="REPORTING\StoredProcedures\REPORTING.MERGE_FACT_KPI_CHURN.sql" />
+    <Build Include="REPORTING\Views\REPORTING.DIM_PARTNER_V.sql" />
   </ItemGroup>
 </Project>
