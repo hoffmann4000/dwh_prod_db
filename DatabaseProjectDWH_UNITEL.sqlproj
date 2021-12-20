@@ -272,7 +272,6 @@
     <Build Include="REPORTING\StoredProcedures\UPDATE_DIM_PRODUKT.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_DIM_OPERATOR.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_DIM_MOBIL_ABONNEMENT.sql" />
-    <Build Include="REPORTING\StoredProcedures\UPDATE_DIM_KUNDE.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_DIM_INVOICEGROUP.sql" />
     <Build Include="REPORTING\StoredProcedures\UPDATE_DIM_DATO.sql" />
     <Build Include="REPORTING\StoredProcedures\SIMPEL_LOOP_INSERT.sql" />
@@ -487,5 +486,6 @@
     <Build Include="Views\BASELINE.DIM_PARTNER_V.sql" />
     <Build Include="StoredProcedures\REPORTING.MERGE_DIM_PARTNER.sql" />
     <Build Include="Views\DIM_KUNDE_V.sql" />
+    <Build Include="StoredProcedures\MERGE_DIM_KUNDE.sql" />
   </ItemGroup>
 </Project>
