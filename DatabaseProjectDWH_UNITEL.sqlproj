@@ -95,6 +95,8 @@
     <Folder Include="admin\Tables\" />
     <Folder Include="admin\StoredProcedures\" />
     <Folder Include="StoredProcedures\" />
+    <Folder Include="Tables\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
@@ -481,5 +483,8 @@
     <Build Include="REPORTING\Views\REPORTING.DIM_PARTNER_V.sql" />
     <Build Include="REPORTING\Tables\REPORTING.FACT_CHURN.sql" />
     <Build Include="StoredProcedures\REPORTING.MERGE_FACT.CHURN.sql" />
+    <Build Include="Tables\REPORTING.DIM_PARTNER.sql" />
+    <Build Include="Views\BASSELINE.DIM_PARTNER_V.sql" />
+    <Build Include="Views\BASELINE.DIM_PARTNER_V.sql" />
   </ItemGroup>
 </Project>
