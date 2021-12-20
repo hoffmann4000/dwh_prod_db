@@ -324,7 +324,6 @@
     <Build Include="BASELINE\Views\MOBIL_EXTRA_DATA_PIVOT.sql" />
     <Build Include="BASELINE\Views\MOBIL_ABONNOMENT_V.sql" />
     <Build Include="BASELINE\Views\LASTDAYOFMONTH_ONE_YEAR_BACK.sql" />
-    <Build Include="BASELINE\Views\KUNDE_V.sql" />
     <Build Include="BASELINE\Views\INVOICEGROUP_V.sql" />
     <Build Include="BASELINE\Views\HPBX_STATS_TODAY_V.sql" />
     <Build Include="BASELINE\Views\FORRIGE_INDEVARENDE_FINANSAAR_V.sql" />
@@ -487,5 +486,6 @@
     <Build Include="Views\BASSELINE.DIM_PARTNER_V.sql" />
     <Build Include="Views\BASELINE.DIM_PARTNER_V.sql" />
     <Build Include="StoredProcedures\REPORTING.MERGE_DIM_PARTNER.sql" />
+    <Build Include="Views\DIM_KUNDE_V.sql" />
   </ItemGroup>
 </Project>
