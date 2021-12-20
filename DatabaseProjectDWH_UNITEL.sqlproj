@@ -486,5 +486,6 @@
     <Build Include="Tables\REPORTING.DIM_PARTNER.sql" />
     <Build Include="Views\BASSELINE.DIM_PARTNER_V.sql" />
     <Build Include="Views\BASELINE.DIM_PARTNER_V.sql" />
+    <Build Include="StoredProcedures\REPORTING.MERGE_DIM_PARTNER.sql" />
   </ItemGroup>
 </Project>
