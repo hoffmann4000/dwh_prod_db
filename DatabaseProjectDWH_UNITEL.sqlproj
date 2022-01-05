@@ -480,7 +480,6 @@
     <Build Include="REPORTING\StoredProcedures\REPORTING.MERGE_FACT_KPI_CHURN.sql" />
     <Build Include="REPORTING\Views\REPORTING.DIM_PARTNER_V.sql" />
     <Build Include="REPORTING\Tables\REPORTING.FACT_CHURN.sql" />
-    <Build Include="StoredProcedures\REPORTING.MERGE_FACT.CHURN.sql" />
     <Build Include="Tables\REPORTING.DIM_PARTNER.sql" />
     <Build Include="Views\BASSELINE.DIM_PARTNER_V.sql" />
     <Build Include="Views\BASELINE.DIM_PARTNER_V.sql" />
@@ -489,5 +488,7 @@
     <Build Include="StoredProcedures\MERGE_DIM_KUNDE.sql" />
     <Build Include="Views\REPORTING.CUSTOMERS_TOTAL_ADDED_LEAVING_GROSS_V.sql" />
     <Build Include="StoredProcedures\MERGE_FACT_CHURN.sql" />
+    <Build Include="StoredProcedures\DELETE_:HERE.sql" />
+    <Build Include="StoredProcedures\StoredProcedure_X.sql" />
   </ItemGroup>
 </Project>
