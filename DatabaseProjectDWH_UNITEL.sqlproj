@@ -488,5 +488,6 @@
     <Build Include="Views\DIM_KUNDE_V.sql" />
     <Build Include="StoredProcedures\MERGE_DIM_KUNDE.sql" />
     <Build Include="Views\REPORTING.CUSTOMERS_TOTAL_ADDED_LEAVING_GROSS_V.sql" />
+    <Build Include="StoredProcedures\MERGE_FACT_CHURN.sql" />
   </ItemGroup>
 </Project>
